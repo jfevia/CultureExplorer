@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_buttonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="_buttonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 400</value>
+  </data>
+  <data name="_buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_buttonClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.Name" xml:space="preserve">
+    <value>_buttonClose</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_labelFirstDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelFirstDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="_labelFirstDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 18</value>
+  </data>
+  <data name="_labelFirstDay.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_labelFirstDay.Text" xml:space="preserve">
+    <value>First day of week:</value>
+  </data>
+  <data name="_labelFirstDay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;_labelFirstDay.Name" xml:space="preserve">
+    <value>_labelFirstDay</value>
+  </data>
+  <data name="&gt;&gt;_labelFirstDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelFirstDay.Parent" xml:space="preserve">
+    <value>_groupBoxDays</value>
+  </data>
+  <data name="&gt;&gt;_labelFirstDay.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_labelDays.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 48</value>
+  </data>
+  <data name="_labelDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="_labelDays.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_labelDays.Text" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="&gt;&gt;_labelDays.Name" xml:space="preserve">
+    <value>_labelDays</value>
+  </data>
+  <data name="&gt;&gt;_labelDays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelDays.Parent" xml:space="preserve">
+    <value>_groupBoxDays</value>
+  </data>
+  <data name="&gt;&gt;_labelDays.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_firstDay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="_firstDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_firstDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 21</value>
+  </data>
+  <data name="_firstDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="_firstDay.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_firstDay.Text" xml:space="preserve">
+    <value>(fdow)</value>
+  </data>
+  <data name="_firstDay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_firstDay.Name" xml:space="preserve">
+    <value>_firstDay</value>
+  </data>
+  <data name="&gt;&gt;_firstDay.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_firstDay.Parent" xml:space="preserve">
+    <value>_groupBoxDays</value>
+  </data>
+  <data name="&gt;&gt;_firstDay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_columnDay.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_columnDay.Width" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="_columnDayAbbr.Text" xml:space="preserve">
+    <value>Abbreviated</value>
+  </data>
+  <data name="_columnDayAbbr.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="_columnDayAbbr.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="_columnDayShortest.Text" xml:space="preserve">
+    <value>Shortest</value>
+  </data>
+  <data name="_columnDayShortest.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="_columnDayShortest.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="_listDays.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="_listDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 68</value>
+  </data>
+  <data name="_listDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 154</value>
+  </data>
+  <data name="_listDays.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_listDays.Name" xml:space="preserve">
+    <value>_listDays</value>
+  </data>
+  <data name="&gt;&gt;_listDays.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerListView, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_listDays.Parent" xml:space="preserve">
+    <value>_groupBoxDays</value>
+  </data>
+  <data name="&gt;&gt;_listDays.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_groupBoxDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="_groupBoxDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 235</value>
+  </data>
+  <data name="_groupBoxDays.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_groupBoxDays.Text" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxDays.Name" xml:space="preserve">
+    <value>_groupBoxDays</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxDays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxDays.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxDays.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_checkGenitiveMonths.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_checkGenitiveMonths.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_checkGenitiveMonths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 313</value>
+  </data>
+  <data name="_checkGenitiveMonths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="_checkGenitiveMonths.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="_checkGenitiveMonths.Text" xml:space="preserve">
+    <value>Use Genitive Months Names</value>
+  </data>
+  <data name="&gt;&gt;_checkGenitiveMonths.Name" xml:space="preserve">
+    <value>_checkGenitiveMonths</value>
+  </data>
+  <data name="&gt;&gt;_checkGenitiveMonths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_checkGenitiveMonths.Parent" xml:space="preserve">
+    <value>_groupBoxMonths</value>
+  </data>
+  <data name="&gt;&gt;_checkGenitiveMonths.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_labelMonths.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelMonths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 48</value>
+  </data>
+  <data name="_labelMonths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="_labelMonths.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="_labelMonths.Text" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="&gt;&gt;_labelMonths.Name" xml:space="preserve">
+    <value>_labelMonths</value>
+  </data>
+  <data name="&gt;&gt;_labelMonths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelMonths.Parent" xml:space="preserve">
+    <value>_groupBoxMonths</value>
+  </data>
+  <data name="&gt;&gt;_labelMonths.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_columnMonth.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_columnMonth.Width" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="_columnMonthAbbr.Text" xml:space="preserve">
+    <value>Abbreviated</value>
+  </data>
+  <data name="_columnMonthAbbr.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="_columnMonthAbbr.Width" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="_listMonths.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="_listMonths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 68</value>
+  </data>
+  <data name="_listMonths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 239</value>
+  </data>
+  <data name="_listMonths.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;_listMonths.Name" xml:space="preserve">
+    <value>_listMonths</value>
+  </data>
+  <data name="&gt;&gt;_listMonths.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerListView, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_listMonths.Parent" xml:space="preserve">
+    <value>_groupBoxMonths</value>
+  </data>
+  <data name="&gt;&gt;_listMonths.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_monthsPerYear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_monthsPerYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 21</value>
+  </data>
+  <data name="_monthsPerYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="_monthsPerYear.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="_monthsPerYear.Text" xml:space="preserve">
+    <value>(mpy)</value>
+  </data>
+  <data name="_monthsPerYear.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_monthsPerYear.Name" xml:space="preserve">
+    <value>_monthsPerYear</value>
+  </data>
+  <data name="&gt;&gt;_monthsPerYear.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_monthsPerYear.Parent" xml:space="preserve">
+    <value>_groupBoxMonths</value>
+  </data>
+  <data name="&gt;&gt;_monthsPerYear.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_labelMonthsPerYear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelMonthsPerYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 23</value>
+  </data>
+  <data name="_labelMonthsPerYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 18</value>
+  </data>
+  <data name="_labelMonthsPerYear.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="_labelMonthsPerYear.Text" xml:space="preserve">
+    <value>Months per year:</value>
+  </data>
+  <data name="&gt;&gt;_labelMonthsPerYear.Name" xml:space="preserve">
+    <value>_labelMonthsPerYear</value>
+  </data>
+  <data name="&gt;&gt;_labelMonthsPerYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelMonthsPerYear.Parent" xml:space="preserve">
+    <value>_groupBoxMonths</value>
+  </data>
+  <data name="&gt;&gt;_labelMonthsPerYear.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_groupBoxMonths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 12</value>
+  </data>
+  <data name="_groupBoxMonths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 343</value>
+  </data>
+  <data name="_groupBoxMonths.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_groupBoxMonths.Text" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxMonths.Name" xml:space="preserve">
+    <value>_groupBoxMonths</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxMonths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxMonths.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxMonths.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_pm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="_pm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_pm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 49</value>
+  </data>
+  <data name="_pm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="_pm.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="_pm.Text" xml:space="preserve">
+    <value>(pm)</value>
+  </data>
+  <data name="_pm.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_pm.Name" xml:space="preserve">
+    <value>_pm</value>
+  </data>
+  <data name="&gt;&gt;_pm.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_pm.Parent" xml:space="preserve">
+    <value>_groupBoxTime</value>
+  </data>
+  <data name="&gt;&gt;_pm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_labelPm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelPm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 51</value>
+  </data>
+  <data name="_labelPm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="_labelPm.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_labelPm.Text" xml:space="preserve">
+    <value>PM Designator:</value>
+  </data>
+  <data name="&gt;&gt;_labelPm.Name" xml:space="preserve">
+    <value>_labelPm</value>
+  </data>
+  <data name="&gt;&gt;_labelPm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelPm.Parent" xml:space="preserve">
+    <value>_groupBoxTime</value>
+  </data>
+  <data name="&gt;&gt;_labelPm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_am.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="_am.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_am.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 24</value>
+  </data>
+  <data name="_am.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="_am.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_am.Text" xml:space="preserve">
+    <value>(am)</value>
+  </data>
+  <data name="_am.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_am.Name" xml:space="preserve">
+    <value>_am</value>
+  </data>
+  <data name="&gt;&gt;_am.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_am.Parent" xml:space="preserve">
+    <value>_groupBoxTime</value>
+  </data>
+  <data name="&gt;&gt;_am.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_labelAm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelAm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="_labelAm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="_labelAm.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_labelAm.Text" xml:space="preserve">
+    <value>AM Designator:</value>
+  </data>
+  <data name="&gt;&gt;_labelAm.Name" xml:space="preserve">
+    <value>_labelAm</value>
+  </data>
+  <data name="&gt;&gt;_labelAm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelAm.Parent" xml:space="preserve">
+    <value>_groupBoxTime</value>
+  </data>
+  <data name="&gt;&gt;_labelAm.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_groupBoxTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 351</value>
+  </data>
+  <data name="_groupBoxTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 75</value>
+  </data>
+  <data name="_groupBoxTime.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_groupBoxTime.Text" xml:space="preserve">
+    <value>AM/PM designators</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxTime.Name" xml:space="preserve">
+    <value>_groupBoxTime</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_labelAlgorithm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_labelAlgorithm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelAlgorithm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 18</value>
+  </data>
+  <data name="_labelAlgorithm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="_labelAlgorithm.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="_labelAlgorithm.Text" xml:space="preserve">
+    <value>Algorithm:</value>
+  </data>
+  <data name="&gt;&gt;_labelAlgorithm.Name" xml:space="preserve">
+    <value>_labelAlgorithm</value>
+  </data>
+  <data name="&gt;&gt;_labelAlgorithm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelAlgorithm.Parent" xml:space="preserve">
+    <value>_groupBoxCalendar</value>
+  </data>
+  <data name="&gt;&gt;_labelAlgorithm.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_currentEra.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_currentEra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 65</value>
+  </data>
+  <data name="_currentEra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="_currentEra.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="_currentEra.Text" xml:space="preserve">
+    <value>era</value>
+  </data>
+  <data name="_currentEra.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_currentEra.Name" xml:space="preserve">
+    <value>_currentEra</value>
+  </data>
+  <data name="&gt;&gt;_currentEra.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_currentEra.Parent" xml:space="preserve">
+    <value>_groupBoxCalendar</value>
+  </data>
+  <data name="&gt;&gt;_currentEra.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_labelEra.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_labelEra.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelEra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 66</value>
+  </data>
+  <data name="_labelEra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="_labelEra.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="_labelEra.Text" xml:space="preserve">
+    <value>Current Era:</value>
+  </data>
+  <data name="&gt;&gt;_labelEra.Name" xml:space="preserve">
+    <value>_labelEra</value>
+  </data>
+  <data name="&gt;&gt;_labelEra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelEra.Parent" xml:space="preserve">
+    <value>_groupBoxCalendar</value>
+  </data>
+  <data name="&gt;&gt;_labelEra.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_nativeName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_nativeName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 40</value>
+  </data>
+  <data name="_nativeName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="_nativeName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="_nativeName.Text" xml:space="preserve">
+    <value>nativename</value>
+  </data>
+  <data name="_nativeName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_nativeName.Name" xml:space="preserve">
+    <value>_nativeName</value>
+  </data>
+  <data name="&gt;&gt;_nativeName.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_nativeName.Parent" xml:space="preserve">
+    <value>_groupBoxCalendar</value>
+  </data>
+  <data name="&gt;&gt;_nativeName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_labelNativeName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_labelNativeName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelNativeName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 42</value>
+  </data>
+  <data name="_labelNativeName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="_labelNativeName.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="_labelNativeName.Text" xml:space="preserve">
+    <value>Native Name:</value>
+  </data>
+  <data name="&gt;&gt;_labelNativeName.Name" xml:space="preserve">
+    <value>_labelNativeName</value>
+  </data>
+  <data name="&gt;&gt;_labelNativeName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelNativeName.Parent" xml:space="preserve">
+    <value>_groupBoxCalendar</value>
+  </data>
+  <data name="&gt;&gt;_labelNativeName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_algorithm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_algorithm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 16</value>
+  </data>
+  <data name="_algorithm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="_algorithm.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="_algorithm.Text" xml:space="preserve">
+    <value>algorithm</value>
+  </data>
+  <data name="_algorithm.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_algorithm.Name" xml:space="preserve">
+    <value>_algorithm</value>
+  </data>
+  <data name="&gt;&gt;_algorithm.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_algorithm.Parent" xml:space="preserve">
+    <value>_groupBoxCalendar</value>
+  </data>
+  <data name="&gt;&gt;_algorithm.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_groupBoxCalendar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 253</value>
+  </data>
+  <data name="_groupBoxCalendar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 92</value>
+  </data>
+  <data name="_groupBoxCalendar.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="_groupBoxCalendar.Text" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxCalendar.Name" xml:space="preserve">
+    <value>_groupBoxCalendar</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxCalendar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxCalendar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_groupBoxCalendar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>613, 436</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Date, Time and Calendar Information</value>
+  </data>
+  <data name="&gt;&gt;_columnDay.Name" xml:space="preserve">
+    <value>_columnDay</value>
+  </data>
+  <data name="&gt;&gt;_columnDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_columnDayAbbr.Name" xml:space="preserve">
+    <value>_columnDayAbbr</value>
+  </data>
+  <data name="&gt;&gt;_columnDayAbbr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_columnDayShortest.Name" xml:space="preserve">
+    <value>_columnDayShortest</value>
+  </data>
+  <data name="&gt;&gt;_columnDayShortest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_columnMonth.Name" xml:space="preserve">
+    <value>_columnMonth</value>
+  </data>
+  <data name="&gt;&gt;_columnMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_columnMonthAbbr.Name" xml:space="preserve">
+    <value>_columnMonthAbbr</value>
+  </data>
+  <data name="&gt;&gt;_columnMonthAbbr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CalendarForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

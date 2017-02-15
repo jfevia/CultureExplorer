@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_labelGroupSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_labelGroupSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 127</value>
+  </data>
+  <data name="_labelGroupSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_labelGroupSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_labelGroupSeparator.Text" xml:space="preserve">
+    <value>Group Separator:</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSeparator.Name" xml:space="preserve">
+    <value>_labelGroupSeparator</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSeparator.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSeparator.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="_negativePattern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_negativePattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 177</value>
+  </data>
+  <data name="_negativePattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_negativePattern.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="_negativePattern.Text" xml:space="preserve">
+    <value>(negpat)</value>
+  </data>
+  <data name="_negativePattern.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_negativePattern.Name" xml:space="preserve">
+    <value>_negativePattern</value>
+  </data>
+  <data name="&gt;&gt;_negativePattern.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_negativePattern.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_negativePattern.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_labelPerMille.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelPerMille.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 23</value>
+  </data>
+  <data name="_labelPerMille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="_labelPerMille.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_labelPerMille.Text" xml:space="preserve">
+    <value>PerMille Symbol:</value>
+  </data>
+  <data name="&gt;&gt;_labelPerMille.Name" xml:space="preserve">
+    <value>_labelPerMille</value>
+  </data>
+  <data name="&gt;&gt;_labelPerMille.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_labelPerMille.Parent" xml:space="preserve">
+    <value>_groupPerMille</value>
+  </data>
+  <data name="&gt;&gt;_labelPerMille.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_perMille.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_perMille.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 21</value>
+  </data>
+  <data name="_perMille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_perMille.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_perMille.Text" xml:space="preserve">
+    <value>(per mille)</value>
+  </data>
+  <data name="_perMille.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_perMille.Name" xml:space="preserve">
+    <value>_perMille</value>
+  </data>
+  <data name="&gt;&gt;_perMille.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_perMille.Parent" xml:space="preserve">
+    <value>_groupPerMille</value>
+  </data>
+  <data name="&gt;&gt;_perMille.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_groupPerMille.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 227</value>
+  </data>
+  <data name="_groupPerMille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 49</value>
+  </data>
+  <data name="_groupPerMille.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_groupPerMille.Text" xml:space="preserve">
+    <value>Permille</value>
+  </data>
+  <data name="&gt;&gt;_groupPerMille.Name" xml:space="preserve">
+    <value>_groupPerMille</value>
+  </data>
+  <data name="&gt;&gt;_groupPerMille.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupPerMille.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_groupPerMille.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_labelDecimalSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelDecimalSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 75</value>
+  </data>
+  <data name="_labelDecimalSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="_labelDecimalSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_labelDecimalSeparator.Text" xml:space="preserve">
+    <value>Decimal Separator:</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalSeparator.Name" xml:space="preserve">
+    <value>_labelDecimalSeparator</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalSeparator.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalSeparator.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="_labelDecimalDigits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelDecimalDigits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 49</value>
+  </data>
+  <data name="_labelDecimalDigits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="_labelDecimalDigits.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_labelDecimalDigits.Text" xml:space="preserve">
+    <value>Decimal Digits:</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalDigits.Name" xml:space="preserve">
+    <value>_labelDecimalDigits</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalDigits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalDigits.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_labelDecimalDigits.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="_buttonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="_buttonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 287</value>
+  </data>
+  <data name="_buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="_buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_buttonClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.Name" xml:space="preserve">
+    <value>_buttonClose</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_buttonClose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_positivePattern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_positivePattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 151</value>
+  </data>
+  <data name="_positivePattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_positivePattern.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="_positivePattern.Text" xml:space="preserve">
+    <value>(pospat)</value>
+  </data>
+  <data name="_positivePattern.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_positivePattern.Name" xml:space="preserve">
+    <value>_positivePattern</value>
+  </data>
+  <data name="&gt;&gt;_positivePattern.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_positivePattern.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_positivePattern.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_groupSizes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_groupSizes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 99</value>
+  </data>
+  <data name="_groupSizes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_groupSizes.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="_groupSizes.Text" xml:space="preserve">
+    <value>(gsize)</value>
+  </data>
+  <data name="_groupSizes.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_groupSizes.Name" xml:space="preserve">
+    <value>_groupSizes</value>
+  </data>
+  <data name="&gt;&gt;_groupSizes.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_groupSizes.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_groupSizes.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_labelNegativePattern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelNegativePattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 179</value>
+  </data>
+  <data name="_labelNegativePattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="_labelNegativePattern.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="_labelNegativePattern.Text" xml:space="preserve">
+    <value>Negative Pattern:</value>
+  </data>
+  <data name="&gt;&gt;_labelNegativePattern.Name" xml:space="preserve">
+    <value>_labelNegativePattern</value>
+  </data>
+  <data name="&gt;&gt;_labelNegativePattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelNegativePattern.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_labelNegativePattern.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="_decimalDigits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_decimalDigits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 47</value>
+  </data>
+  <data name="_decimalDigits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_decimalDigits.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="_decimalDigits.Text" xml:space="preserve">
+    <value>(decdigits)</value>
+  </data>
+  <data name="_decimalDigits.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_decimalDigits.Name" xml:space="preserve">
+    <value>_decimalDigits</value>
+  </data>
+  <data name="&gt;&gt;_decimalDigits.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_decimalDigits.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_decimalDigits.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_groupSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_groupSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 125</value>
+  </data>
+  <data name="_groupSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_groupSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="_groupSeparator.Text" xml:space="preserve">
+    <value>(gsep)</value>
+  </data>
+  <data name="_groupSeparator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_groupSeparator.Name" xml:space="preserve">
+    <value>_groupSeparator</value>
+  </data>
+  <data name="&gt;&gt;_groupSeparator.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_groupSeparator.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_groupSeparator.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_symbol.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_symbol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 23</value>
+  </data>
+  <data name="_symbol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_symbol.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="_symbol.Text" xml:space="preserve">
+    <value>(symbol)</value>
+  </data>
+  <data name="_symbol.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_symbol.Name" xml:space="preserve">
+    <value>_symbol</value>
+  </data>
+  <data name="&gt;&gt;_symbol.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_symbol.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_symbol.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_decimalSeparator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_decimalSeparator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 73</value>
+  </data>
+  <data name="_decimalSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 18</value>
+  </data>
+  <data name="_decimalSeparator.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="_decimalSeparator.Text" xml:space="preserve">
+    <value>(decsep)</value>
+  </data>
+  <data name="_decimalSeparator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;_decimalSeparator.Name" xml:space="preserve">
+    <value>_decimalSeparator</value>
+  </data>
+  <data name="&gt;&gt;_decimalSeparator.Type" xml:space="preserve">
+    <value>CultureExplorer20.CultureExplorerLabel, CultureExplorer20, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_decimalSeparator.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_decimalSeparator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_labelSymbol.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelSymbol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="_labelSymbol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="_labelSymbol.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_labelSymbol.Text" xml:space="preserve">
+    <value>Percent Symbol:</value>
+  </data>
+  <data name="&gt;&gt;_labelSymbol.Name" xml:space="preserve">
+    <value>_labelSymbol</value>
+  </data>
+  <data name="&gt;&gt;_labelSymbol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelSymbol.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_labelSymbol.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="_labelGroupSizes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelGroupSizes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 101</value>
+  </data>
+  <data name="_labelGroupSizes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="_labelGroupSizes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_labelGroupSizes.Text" xml:space="preserve">
+    <value>Group Sizes:</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSizes.Name" xml:space="preserve">
+    <value>_labelGroupSizes</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSizes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSizes.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_labelGroupSizes.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="_labelPositivePattern.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="_labelPositivePattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 153</value>
+  </data>
+  <data name="_labelPositivePattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 18</value>
+  </data>
+  <data name="_labelPositivePattern.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="_labelPositivePattern.Text" xml:space="preserve">
+    <value>Positive Pattern:</value>
+  </data>
+  <data name="&gt;&gt;_labelPositivePattern.Name" xml:space="preserve">
+    <value>_labelPositivePattern</value>
+  </data>
+  <data name="&gt;&gt;_labelPositivePattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_labelPositivePattern.Parent" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_labelPositivePattern.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="_groupPercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 9</value>
+  </data>
+  <data name="_groupPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 210</value>
+  </data>
+  <data name="_groupPercent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_groupPercent.Text" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="&gt;&gt;_groupPercent.Name" xml:space="preserve">
+    <value>_groupPercent</value>
+  </data>
+  <data name="&gt;&gt;_groupPercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_groupPercent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_groupPercent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>257, 320</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Percent Format Details</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PercentFormatForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
